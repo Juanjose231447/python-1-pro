@@ -1,0 +1,7 @@
+print ("calculadora de teorema de pitagoras")
+def teorema_de_pitagoras(a, b):
+    return (a**2 + b**2)**0.5
+lado_a = float(input("ingresa la longitud del lado a: "))
+lado_b = float(input("ingresa la longitud del lado b: "))
+hipotenusa = teorema_de_pitagoras(lado_a, lado_b)
+print(f"La longitud de la hipotenusa es: {hipotenusa}")
